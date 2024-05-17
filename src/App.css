@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+:root {
+  /* font size  */
+  --fs-10: 10px;
+  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 24px;
+  --fs-lg: 30px;
+  --fs-xl: 45px;
+  --fs-xxl: 38px;
+  /* color */
+  --clr-gray: #d3d3d3;
+}
+.clr_gray {
+  color: var(--clr-gray);
+}
+.clr_darkgray {
+  color: rgb(107, 107, 107);
+}
+.fs_10 {
+  font-size: var(--fs-10);
+}
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.ff_pop {
+  font-family: "Poppins", sans-serif;
+}
+.my_container {
+  max-width: 1180px;
+  padding: 0 12px 0 12px;
+  margin: 0 auto;
+}
+/* ---------------prealoder */
+.prealoder {
+  height: 100vh;
+  width: 100%;
+  background: rgb(21, 21, 26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.load_size {
+  height: 200px;
+  width: 200px;
+}
+.overflow_hidden {
+  overflow: hidden;
+}
+/* ---------------------- LOG IN PAGE ----------------- */
+
+.log_bg {
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/mclaren-gt-globaltestdrive-0009-1568995044.jpg?crop=0.704xw:0.704xh;0.248xw,0.296xh&resize=980:*);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+.log_container {
+  max-width: 800px;
+  margin: auto;
+  height: 500px;
+}
+.rdc {
+  border-radius: 12px 12px 12px 12px;
+}
+.rdc2 {
+  border-radius: 0 12px 12px 0;
+}
+.mx_100 {
+  width: 100%;
+}
+.media_logo {
+  height: 38px;
+  width: 38px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.p_m5 {
+  margin-left: -4px;
+}
+.logo_img {
+  width: 15px;
+}
+.logo_img2 {
+  width: 22px;
+}
+.in_logo {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00000099;
+}
+.input_style {
+  outline: none;
+  border: 1px solid gray;
+  width: 70%;
+}
+.sing_btn {
+  background-color: aquamarine;
+  border: 2px solid aquamarine;
+  padding: 5px 30px;
+  border-radius: 24px;
+}
+.w_60 {
+  width: 70%;
+}
+
+/* --------------------------- NEW PAGE------------------- */
+.main_bg {
+  background-image: url(https://www.bhmpics.com/downloads/scary-cars-Wallpapers/40.lamborghini_veneno_supercar-hd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.logo_size {
+  width: 70px;
+  height: 60px;
+}
+.contact_btn {
+  background: transparent;
+  border: 2px solid white;
+  padding: 5px 18px;
+  border-radius: 12px;
+}
+.h_calc {
+  height: calc(100vh - 163px);
+}
+/* --------------------------------- LAUNCH CAR---------------------- */
+.launch_bg {
+  background-image: url(https://images6.alphacoders.com/106/thumb-1920-1062375.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  bottom: 0 !important;
+  right: 0;
+}
+.trnsprnt_div {
+  height: 100vh;
+  width: 100%;
+  background: transparent;
+}
+.op_07 {
+  opacity: 0.7;
+}
+.car_red {
+  width: 300px;
+  height: 150px;
+  /* position: absolute; */
+  top: 30px;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  opacity: 0.9;
+  left: 10px;
+  transform: rotate(5deg);
+}
+.car_red2 {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  top: -30px;
+  transform: rotate(-10deg);
+}
+.mx_md_70 {
+  max-width: 90%;
+}
+.rdc_24 {
+  border-radius: 24px;
+}
+/* ------------------------------- SECOND LAUNCH------------------ */
+.second_bg {
+  background-image: url(https://i.pinimg.com/originals/99/31/8d/99318df9fa47673aa24d816a0e7e4839.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* --------------------------CAR SLIDE------------------- */
+.my_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.slider {
+  perspective: 1000px;
+}
+
+.slider__container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  animation: rotate 10s infinite linear;
+}
+
+.slider__item {
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  transform-origin: 50% 50% 60px;
+}
+
+.slider__item:nth-child(1) {
+  transform: rotateY(0deg) translateZ(300px);
+}
+slider__item:nth-child(2) {
+  transform: rotateY(72deg) translateZ(300px);
+}
+.slider__item:nth-child(3) {
+  transform: rotateY(144deg) translateZ(300px);
+}
+.slider__item:nth-child(4) {
+  transform: rotateY(216deg) translateZ(300px);
+}
+.slider__item:nth-child(5) {
+  transform: rotateY(288deg) translateZ(300px);
+}
+.slider__item:nth-child(6) {
+  transform: rotateY(288deg) translateZ(300px);
+}
+.slider__item:nth-child(7) {
+  transform: rotateY(288deg) translateZ(300px);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@media (min-width: 576px) {
+  :root {
+    /* font size  */
+    --fs-10: 10px;
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 24px;
+    --fs-lg: 30px;
+    --fs-xl: 45px;
+    --fs-xxl: 51px;
+    /* color */
+    --clr-gray: #d3d3d3;
+  }
+  .logo_size {
+    width: 80px;
+    height: 70px;
+  }
+  .car_red {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    left: 10px;
+    transform: rotate(5deg);
+  }
+  .car_red2 {
+    top: -20px;
+    transform: rotate(-3deg);
+  }
+  .car_red {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    left: 10px;
+    transform: rotate(5deg);
+  }
+  .car_red2 {
+    top: -40px;
+    transform: rotate(-10deg);
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    /* font size  */
+    --fs-10: 10px;
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 24px;
+    --fs-lg: 30px;
+    --fs-xl: 45px;
+    --fs-xxl: 56px;
+    /* color */
+    --clr-gray: #d3d3d3;
+  }
+  .logo_size {
+    width: 90px;
+    height: 80px;
+  }
+  .car_red {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    left: 10px;
+    transform: rotate(5deg);
+  }
+  .mx_50 {
+    width: 50%;
+  }
+  .car_red2 {
+    top: -40px;
+    transform: rotate(-10deg);
+  }
+  .box_shadow {
+    -webkit-box-shadow: 3px -1px 5px 5px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px -1px 5px 5px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px -1px 5px 5px rgba(0, 0, 0, 0.35);
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    /* font size  */
+    --fs-10: 10px;
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 24px;
+    --fs-lg: 30px;
+    --fs-xl: 45px;
+    --fs-xxl: 62px;
+    /* color */
+    --clr-gray: #d3d3d3;
+  }
+  .logo_size {
+    width: 100px;
+    height: 90px;
+  }
+  .m_50 {
+    width: 50%;
+  }
+  .car_red {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    left: 10px;
+    transform: rotate(5deg);
+  }
+  .car_red2 {
+    top: -80px;
+    transform: rotate(-10deg);
+  }
+}
+@media (max-width: 992px) {
+  .mobile_nav {
+    position: absolute;
+    background: rgb(39, 39, 54);
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    justify-content: center;
+    /* top: 0; */
+    transition: all 0.4s linear;
+  }
+  .top_m100 {
+    top: -100%;
+  }
+  .top_0 {
+    top: 0;
+  }
+  .navicon {
+    width: 37px;
+    background-color: white;
+    height: 3px;
+    border-radius: 8px;
+  }
+  .navicon2 {
+    width: 37px;
+    background-color: white;
+    height: 3px;
+    border-radius: 8px;
+    margin-top: 7px;
+  }
+  .navicon3 {
+    width: 37px;
+    background-color: white;
+    height: 3px;
+    border-radius: 8px;
+    margin-top: 7px;
+  }
+  .cross_size {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
